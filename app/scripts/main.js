@@ -16,18 +16,7 @@ require.config({
     }
 });
 
-/*require(['scripts/app'], function (app) {
-    console.log(app); // Empty object here?
-});
-*/
-
-/*
-require(['backbone'], function(Backbone) {
-	console.log(Backbone);
-});
-*/
-
-require(['scripts/models/slide'], function(SlideModel) {
-	console.log(new SlideModel);
+require(['scripts/models/sadaqat'], function(SadaqahModel) {
+	console.log(new SadaqahModel);
 });
 

@@ -1,3 +1,3 @@
 define(function() {
-	return 'Umm.. Hello from Yeoman!';
+	return 'Sadaqah is here!!';
 });
