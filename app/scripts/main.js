@@ -16,7 +16,7 @@ require.config({
     }
 });
 
-require(['scripts/models/sadaqat'], function(SadaqahModel) {
+require(['scripts/models/sadaqat', 'scripts/views/sadaqat.js'], function(SadaqahModel, search_view) {
 	console.log(new SadaqahModel);
 });
 
